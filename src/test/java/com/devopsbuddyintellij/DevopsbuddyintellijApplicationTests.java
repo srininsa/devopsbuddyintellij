@@ -20,7 +20,8 @@ import org.springframework.test.context.web.WebAppConfiguration;
  */
 @RunWith(SpringJUnit4ClassRunner.class)
 //@SpringApplicationConfiguration(classes = DevopsbuddyintellijApplication.class)
-@SpringBootApplication(scanBasePackageClasses = DevopsbuddyintellijApplication.class)
+//@SpringBootApplication(scanBasePackageClasses = DevopsbuddyintellijApplication.class)
+@SpringBootTest(classes = DevopsbuddyintellijApplication.class)
 @WebAppConfiguration
 public class DevopsbuddyintellijApplicationTests {
 
