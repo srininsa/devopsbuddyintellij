@@ -26,6 +26,13 @@
 
 	<dependencies>
 
+		<!-- JQuery webjars dependency -->
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>jquery</artifactId>
+			<version>3.2.1</version>
+		</dependency>
+
 		<!-- Spring Boot Dependencies -->
 		<!-- Bootstrap webjars dependency -->
 
@@ -35,12 +42,7 @@
 			<version>3.3.7-1</version>
 		</dependency>
 
-		<!-- JQuery webjars dependency -->
-		<dependency>
-			<groupId>org.webjars</groupId>
-			<artifactId>jquery</artifactId>
-			<version>3.2.1</version>
-		</dependency>
+
 
 
 		<!-- Logging dependencies -->
